@@ -51,12 +51,20 @@
 				<version>2.5</version>
 			</plugin>
 
-			
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-changelog-plugin</artifactId>
+			</plugin>
 
 		</plugins>
 
-
-
 	</reporting>
+
+	<scm>
+		<connection>scm:git:git:https://github.com/sylvainLeveugle/Tp.git</connection>
+		<url>scm:git:https://github.com/sylvainLeveugle/Tp</url>
+		<developerConnection>scm:git:git:https://github.com/sylvainLeveugle/Tp.git</developerConnection>
+	</scm>
+
 
 </project>
